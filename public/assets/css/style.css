@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/ProximaNova-Light.otf");
+}
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/Proxima-Nova-Black.otf");
+}
+
+body {
+    background-color: white;
+    font-family: ProximaNova;
+}
+h1 {
+    font-family: ProximaNovaBold;
+}
+.card-header {
+    background-color: orange;
+}
+#main-container {
+    background: beige;
+}
+.btn-primary {
+    background: beige;
+    color: black;
+    border-color: orange;
+}
+.btn-primary:hover{
+    background: orange;
+    color: white;
+    border-color: grey;
+}
